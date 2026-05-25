@@ -1,0 +1,8 @@
+pyreadstat
+streamlit
+streamlit-extras
+numpy
+pandas
+plotly
+altair
+scipy
