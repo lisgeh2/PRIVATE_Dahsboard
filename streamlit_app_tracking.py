@@ -132,7 +132,7 @@ b11, b2 = st.columns([1, 2.5])
 
 big_number(b11, "Rest-Day", "Der Tag nach einem Rest Day (277.6 min) wird", "+90", "länger konzentriert als vorher (187.6) (n=7, p=0.07) (d = 0.65)", color="grün", add_percent="min", height=280)
     
-big_number(b11, "Fluktuation", "Im letzten Semester", "31,4", "... schwingt die Lernzeit pro Tag hin und her (gegeben getrackt)", color="gelb", add_percent=True, height=280)
+big_number(b11, "Fluktuation", "Im letzten Semester", "31,4", "... (83 min) schwingt die Lernzeit pro Tag hin und her (gegeben getrackt)", color="gelb", add_percent=True, height=280)
 
 
 with b2:
