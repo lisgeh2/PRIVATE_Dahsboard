@@ -203,7 +203,7 @@ with a_2:
         )
         current_break = break_options[selected_break_label]
 
-        fig = create_barchart(df, meta, "Minutenanzahl", current_break, horizontal=False, color ="rot", height=335)
+        fig = create_barchart(df, meta, "Minutenanzahl", current_break, horizontal=True, color ="rot", height=419)
         st.plotly_chart(fig, use_container_width=True)
         h.set_sample_size(st, col="Minutenanzahl", meta=meta, df=df)
 
