@@ -1,0 +1,15 @@
+# Comments start with #
+
+# Ignore entire directories
+node_modules/
+dist/
+
+# Ignore file types
+*.log
+*.sav
+*.pkl
+
+# Ignore specific files
+.env
+.DS_Store
+environment.py
