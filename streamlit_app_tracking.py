@@ -100,7 +100,7 @@ st.markdown(
         subtitle="Concentration is HARD. And my psychiatrist who is no other than Milan Scheidegger asked me if the amount of concentration a day is variable. And thats a question I want to answer throughoutly, rather than skim it. So here is the full report of 2 years tracking concentration.",
         year=2026,
         window="Concentration-Dashboard",
-        icon = "face.png"
+        icon = "concentrate.png"
     ),
     unsafe_allow_html=True)
 
@@ -115,10 +115,10 @@ k1, k2, k3, k4 = st.columns(4)
 
 # kpi.anzahl_befragte_mit_jahr(k1)
 
-kpi.render(k1, "Anzahl Tage", "125", "+0 % Gegenüber dem letzten Jahr", "up")
-kpi.render(k2, "Methode", "SELF REPORT", "0% Veränderung", "down")
-kpi.render(k3, "Bearbeitungszeit", "täglich 2 min", "0% Veränderung", "down")
-kpi.render(k4, "Befragungszeitraum", "2023-2025", "im exam-period", "down")
+kpi.render(k1, "Anzahl getrackte Tage", "203", "-31 % im  letzten Semester", trend = "down")
+kpi.render(k2, "Methode", "SELF REPORT", "mithilfe einer Stoppuhr")
+kpi.render(k3, "Bearbeitungszeit", "täglich 10 min", "Tracking geht durch habit effizienter")
+kpi.render(k4, "Befragungszeitraum", "2023-2025", "4 Semester continuous tracking", trend = "up")
 
 st.divider()
 

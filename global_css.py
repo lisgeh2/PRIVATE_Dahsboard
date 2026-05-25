@@ -14,6 +14,7 @@ GLOBAL = """
   .kpi-label { font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: #7a7269; margin-bottom: 6px; }
   .kpi-value { font-size: 2rem; font-weight: 700; color: #1a1a2e; line-height: 1; margin-bottom: 5px; }
   .kpi-up   { color: #4c7a3a; font-size: 0.76rem; font-weight: 500; }
+  .kpi-neutral   { color: #7a7269; font-size: 0.76rem; font-weight: 500; }
   .kpi-down { color: #b24d24; font-size: 0.76rem; font-weight: 500; }
   .section-title {
     font-size: 0.68rem; font-weight: 600; letter-spacing: 0.14em;

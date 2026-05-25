@@ -14,13 +14,15 @@ class KpiRenderer:
             unsafe_allow_html=True,
         )
 
-    def render(self, area, label, value, fazit_text, trend):
+    def render(self, area, label, value, fazit_text, trend=None):
         arrow = ""
-        if trend == "up":
-            arrow = "↑"
+        if trend is None:
+            trend = "neutral"
+        elif trend == "up":
+            arrow = "↑ "
         elif trend == "down":
-            arrow = "↓"
-        fazit_text = f"{arrow} {fazit_text}"
+            arrow = "↓ "
+        fazit_text = f"{arrow}{fazit_text}"
 
         color = C_LIST[self.call_count % len(C_LIST)]
         self.call_count += 1
